@@ -2,8 +2,14 @@
     color:red;
 }
 
+.meal-card{
+    min-width:345px;
+    max-width:345px;
+}
 @media (max-width:500px){
     .meal-card{
+        min-width:unset;
+        max-width:unset;
         width:300px;
     }
 }

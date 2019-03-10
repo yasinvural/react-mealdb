@@ -82,7 +82,7 @@ class Meal extends Component {
         const { classes, meal, context } = this.props;
         return (
             <Link to={`/detail/${meal.idMeal}`}>
-                <Card className={classes.card} className="meal-card">
+                <Card className="meal-card">
                     <CardActionArea>
                         <CardMedia
                             className={classes.media}
