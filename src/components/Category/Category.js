@@ -40,7 +40,7 @@ class Category extends Component {
                                 <Avatar alt="" src={category.strCategoryThumb} />
                             </ListItemAvatar>
                             <ListItemText className="category-name" primary={category.strCategory} />
-                            <ListItemSecondaryAction>
+                            <ListItemSecondaryAction className="category-checkbox">
                                 <Checkbox onChange={() => context.handleCategoryClick(category.strCategory)} checked={this.isChecked(category.strCategory, context.selectedCategoryName)} />
                             </ListItemSecondaryAction>
                         </ListItem>
