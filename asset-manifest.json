@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-mealdb/static/css/main.988e6998.chunk.css",
-  "main.js": "/react-mealdb/static/js/main.4b47a360.chunk.js",
-  "main.js.map": "/react-mealdb/static/js/main.4b47a360.chunk.js.map",
-  "static/js/1.2814c52e.chunk.js": "/react-mealdb/static/js/1.2814c52e.chunk.js",
-  "static/js/1.2814c52e.chunk.js.map": "/react-mealdb/static/js/1.2814c52e.chunk.js.map",
+  "main.css": "/react-mealdb/static/css/main.9ae53ebd.chunk.css",
+  "main.js": "/react-mealdb/static/js/main.5e0352c3.chunk.js",
+  "main.js.map": "/react-mealdb/static/js/main.5e0352c3.chunk.js.map",
+  "static/js/1.3f4d6dcd.chunk.js": "/react-mealdb/static/js/1.3f4d6dcd.chunk.js",
+  "static/js/1.3f4d6dcd.chunk.js.map": "/react-mealdb/static/js/1.3f4d6dcd.chunk.js.map",
   "runtime~main.js": "/react-mealdb/static/js/runtime~main.54093199.js",
   "runtime~main.js.map": "/react-mealdb/static/js/runtime~main.54093199.js.map",
-  "static/css/main.988e6998.chunk.css.map": "/react-mealdb/static/css/main.988e6998.chunk.css.map",
+  "static/css/main.9ae53ebd.chunk.css.map": "/react-mealdb/static/css/main.9ae53ebd.chunk.css.map",
   "index.html": "/react-mealdb/index.html",
-  "precache-manifest.5a06bac972ebd282b840e6edbe8e27de.js": "/react-mealdb/precache-manifest.5a06bac972ebd282b840e6edbe8e27de.js",
+  "precache-manifest.5f08780afa6f97b1ae67139003e46e2f.js": "/react-mealdb/precache-manifest.5f08780afa6f97b1ae67139003e46e2f.js",
   "service-worker.js": "/react-mealdb/service-worker.js"
 }
