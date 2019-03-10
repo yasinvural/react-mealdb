@@ -27,4 +27,9 @@
     .category-checkbox{
         display:none !important;
     }
+
+    .selected-category{
+        border:3px solid #5D38DB;
+        padding: 2px;
+    }
 }
