@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-mealdb/static/js/runtime~main.54093199.js"
   },
   {
-    "revision": "2ada7e363adc63622fc7",
-    "url": "/react-mealdb/static/js/main.2ada7e36.chunk.js"
+    "revision": "011c3499001521f09944",
+    "url": "/react-mealdb/static/js/main.011c3499.chunk.js"
   },
   {
     "revision": "3f4d6dcd4084cf46e62b",
     "url": "/react-mealdb/static/js/1.3f4d6dcd.chunk.js"
   },
   {
-    "revision": "2ada7e363adc63622fc7",
+    "revision": "011c3499001521f09944",
     "url": "/react-mealdb/static/css/main.d3f37303.chunk.css"
   },
   {
-    "revision": "64cad75f75c41500f081c57b9b657604",
+    "revision": "026e2bf1ba9ece682463c3204ba6c5b4",
     "url": "/react-mealdb/index.html"
   }
 ];
