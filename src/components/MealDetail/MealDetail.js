@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './MealDetail.css';
 import MealService from '../../services/MealService';
-
+import Spinner from "../Spinner/Spinner";
 
 const mealService = new MealService();
 export default class MealDetail extends Component {
@@ -48,9 +48,7 @@ export default class MealDetail extends Component {
             )
         } else {
             return (
-                <React.Fragment>
-                    Loading
-                </React.Fragment>
+                <Spinner/>
             )
         }
     }
