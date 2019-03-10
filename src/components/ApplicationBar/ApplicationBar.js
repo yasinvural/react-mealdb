@@ -21,7 +21,7 @@ const styles = theme => ({
 class ApplicationBar extends Component {
 
   handleLogo = () => {
-    this.props.history.push('/');
+    this.props.history.push('/react-mealdb');
   }
   render() {
     const { classes } = this.props;
