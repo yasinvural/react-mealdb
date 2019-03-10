@@ -1,5 +1,24 @@
 .category-container{
-    width: 30%;
+    width: 20%;
     float:left;
     margin: 2% 0;
+}
+
+@media (max-width: 1024px){
+    .category-container{
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 640px){
+    .category-list-container{
+        display:flex;
+        flex-direction:column;
+        align-items: flex-start !important;
+    }
+
+    .category-name{
+        padding: 0 !important;
+    }
 }

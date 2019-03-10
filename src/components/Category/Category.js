@@ -35,11 +35,11 @@ class Category extends Component {
             <div className="category-container">
                 <List dense className={classes.root}>
                     {categories.map(category => (
-                        <ListItem key={category.idCategory} button onClick={() => context.handleCategoryClick(category.strCategory)}>
+                        <ListItem className="category-list-container" key={category.idCategory} button onClick={() => context.handleCategoryClick(category.strCategory)}>
                             <ListItemAvatar>
                                 <Avatar alt="" src={category.strCategoryThumb} />
                             </ListItemAvatar>
-                            <ListItemText primary={category.strCategory} />
+                            <ListItemText className="category-name" primary={category.strCategory} />
                             <ListItemSecondaryAction>
                                 <Checkbox onChange={() => context.handleCategoryClick(category.strCategory)} checked={this.isChecked(category.strCategory, context.selectedCategoryName)} />
                             </ListItemSecondaryAction>

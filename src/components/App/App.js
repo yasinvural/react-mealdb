@@ -4,13 +4,12 @@ import './App.css';
 import { Route } from "react-router-dom";
 import ApplicationBar from "../ApplicationBar/ApplicationBar";
 import Category from "../Category/Category";
-import Meals from "../Meals/Meals";
+import Meals from '../Meals/Meals';
 import MealDetail from "../MealDetail/MealDetail";
 import MealProvider from "../../context/MealProvider";
 
-
 class App extends Component {
-
+  
   render() {
     return (
       <MealProvider>
