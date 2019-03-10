@@ -16,8 +16,8 @@ class App extends Component {
         <div className="application-container">
           <Route path="/" component={ApplicationBar} />
           <div className="category-and-card-container">
-            <Route exact path='/' component={Category} />
-            <Route exact path="/" component={Meals} />
+            <Route exact path='/react-mealdb' component={Category} />
+            <Route exact path="/react-mealdb" component={Meals} />
             <Route path="/detail/:id" component={MealDetail} />
             <Route path="/fav" component={Meals} />
           </div>
